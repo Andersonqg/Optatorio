@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap');
+
+@media (max-width: 1440px) {
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 75px;
+}
+
+header div.contenido nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header div.contenido nav ul.menu li {
+    margin-right: 30px;
+}
+
+header div.contenido nav ul li a{
+    text-decoration: none;
+    color: rgb(29, 30, 37);
+}
+
+header div.contenido nav ul li a:active{
+    color: rgb(143, 148, 167);
+}
+
+button.boton-started {
+    background: #F3603B;
+    width: 140px;
+    height: 50px;
+    color: white;
+    border: 2px solid #F3603B;
+    border-radius: 20vh;
+    cursor: pointer;
+}
+
+button.boton-started:active {
+    opacity: 50%;
+}
+
+header div.contenedor-1 {
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    top: -10%;
+    right: 0px;
+    z-index: -1;
+}
+
+header div.contenedor-1 > img#forma {
+    position:relative;
+    right: -10%;
+}
+
+header div.icon-menu {display: none;}
+
+main section.uno{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin: 126px;
+}
+
+main section.uno div.principal {
+    margin-top: 50px;
+}
+
+main section.uno div.principal p.titulo-1{
+    font-size: 58px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+main section.uno div.principal p.sub-titulo-1 {
+    padding-bottom: 30px;
+    width: 350px;
+}
+
+main section.dos{
+    display: flex;
+}
+
+main section.dos div div.seccion-dos {
+    margin-left: 120px;
+}
+
+main section.dos div div.seccion-dos p.titulo-2 {
+    padding-bottom: 25px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+main section.dos div div.contenedor-2 {
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    top: 150%;
+    left: 0px;
+    z-index: -1;
+}
+
+main section.dos div div.contenedor-2 > img#forma {
+    position:relative;
+    left: -60%;
+}
+
+
+main section.dos div div.seccion-dos p.sub-texto-1{
+    width: 75%;
+}
+
+main section.dos div.lista-gestion span.lista{
+    display: flex;
+    width: 70px;
+    height: 40px;
+    background-color: #F3603B;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F3603B;
+    border-radius: 30px;
+}
+
+main section.dos div.lista-gestion >div {
+    display: flex;
+    margin-left: 110px;
+}
+
+main section.dos div.lista-gestion div > div {
+    margin-right: 25px;
+    padding-bottom: 45px;
+}
+
+main section.dos div.lista-gestion div div p.titulo-lista{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+main section.dos div.lista-gestion div div p.sub-texto {
+    width: 60%;
+    color: #B3B2B7;
+}
+
+main section.tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+    margin-bottom: 180px;
+}
+
+main section.tres p.titulo-3 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 100px;
+}
+
+main section.tres div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 21px 40px 21px;
+}
+
+main section.tres div div.card {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
+}
+
+main section.tres div div.card img.avatar-circle {
+    width: 20%;
+    position: relative;
+    top: -35px;
+}
+
+main section.tres div div.card p.sub-texto-2 {
+    color: #B3B2B7;
+    padding-top: 21px;
+}
+
+footer section.pie-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #F3613C;
+    padding: 64px 190px;
+}
+
+footer section.pie-1 div p{
+    color: white;
+    font-size: 40px;
+    width: 70%;
+}
+
+footer section.pie-1 div div.contenedor-3 {
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    top: 280%;
+    left: -4%;
+    height: 253px;
+}
+
+footer section.pie-1 div div.contenedor-3 > img {
+    position:relative;
+    top: -10%;
+    opacity: 10%;
+}
+
+footer section.pie-1 div button {
+    background: white;
+    width: 140px;
+    height: 50px;
+    color: #F3603B;
+    border: 2px solid white;
+    border-radius: 20vh;
+    cursor: pointer;
+}
+footer section.pie-1 div button:active {
+    color: #FFF0EC;
+}
+
+footer section.pie-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: #1E1E26;
+}
+
+footer section.pie-2 div div.icon-socialmedia {
+    padding-top: 75px;
+}
+footer section.pie-2 div div.icon-socialmedia>a{
+    color: white;
+    padding-right: 13px;
+}
+
+footer section.pie-2 div div.icon-socialmedia>a:active{
+    color: #F3613C;
+}
+
+footer section.pie-2 div.contenido-footer ul {
+    display: flex;
+    flex-flow: column wrap;
+    height: 150px;
+}
+footer section.pie-2 div.contenido-footer ul li{
+    margin-bottom: 12px;
+    margin-right: 240px;
+    list-style: none;
+}
+
+footer section.pie-2 div.contenido-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer section.pie-2 div.contenido-footer ul li a:active{
+    color: #F3613C;
+}
+
+footer section.pie-2 div div.suscripcion input[type=mail] {
+    background: white;
+    width: 180px;
+    height: 50px;
+    color: #A0A0A0;
+    border: 2px solid white;
+    border-radius: 20vh;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+footer section.pie-2 div div.suscripcion input[type=submit] {
+    background: #F3603B;
+    width: 70px;
+    height: 50px;
+    color: white;
+    border: 2px solid #F3603B;
+    border-radius: 15vh;
+    cursor: pointer;
+}
+footer section.pie-2 div div.suscripcion input[type=submit]:active {
+    opacity: 50%;
+}
+
+footer section.pie-2 div p.texto-reserved{
+    color: #8C8C94;
+    padding-right: 40px;
+    padding-top: 70px;
+}
+
+footer section.pie-2 div.Reserved-texto {
+    display: none;
+}
+
+
+
+@media (max-width: 375px) {
+    header {
+        justify-content: space-between;
+        padding: 55px 30px 0px 30px;
+    }
+    header div.contenido nav ul.menu{
+        display: none;
+    }
+
+    header div button.boton-started {
+        display: none;
+    }
+
+    header div.icon-menu {
+        display: initial;
+        margin-top: -20px;
+    }
+
+    header div.contenedor-1{
+        right: 0px;
+        position: absolute;
+    }
+    header div.contenedor-1 img {
+        width: 130%;
+        right: -20px;
+    }
+
+    main section div img {
+        width: 350px;
+        margin: -80px 20px 0px 20px;
+    }
+
+    main section.uno {
+        flex-wrap: wrap;
+    }
+
+    main section.uno div.principal{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    main section.uno div.principal p.titulo-1{
+        font-size: 35px;
+
+    }
+    
+    main section.uno div.principal p.sub-titulo-1 {
+        width: 300px;
+        color: #B3B2B7;
+    }
+
+    main section.dos div div.contenedor-2 {
+        top: 85% ;
+        right: 0px;
+        z-index: -1;
+    }
+
+    main section.dos div div.contenedor-2 > img#forma {
+        top: 0px;
+        left: 200px;
+    }
+
+    main section.dos {
+        display: initial;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    main section.dos div div.seccion-dos {
+        display: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+
+    main section.dos div.lista-gestion >div  {
+        margin-left: 20px;
+    }
+
+    main section.dos div.lista-gestion div div p.sub-texto {
+        width: 140%;
+        margin-top: 10px;
+        margin-left: -100px;
+    }
+
+    main section.tres {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    main section.tres p.titulo-3 {
+        font-size: 33px;
+    }
+
+    main section.tres div {
+        flex-wrap: wrap;
+    }
+
+    main section.tres div div.card {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    main section.tres div div.card img.avatar-circle{
+        width: 30%;
+        top: 40px;
+        position: relative;
+    }
+
+    main section.tres div div.card p{
+        padding-top: 60px;
+    }
+
+    footer section.pie-1 {
+        margin: 0px;
+        padding: 70px 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer section.pie-1 div p {
+        display: initial;
+        font-size: 35px;
+        width: 10px;
+    }
+
+    footer section.pie-1 div button{
+        margin-top: 20px;
+    }
+
+    footer section.pie-1 div div.contenedor-3 {
+        width: auto;
+        height: 300px;
+        top: 425%;
+    }
+
+    footer section.pie-1 div div.contenedor-3 > img {
+        width: 125%;
+        left: -370px;
+        top: 0px;
+    }
+
+    footer section.pie-2{
+        height: 450px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        
+    }
+    footer section.pie-2>div{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer section.pie-2 div.order-1 {
+        order: 1;
+    }
+
+    footer section.pie-2 div.order-1 p.texto-reserved {
+        display: none;
+    }
+
+    footer section.pie-2 div.contenido-footer{
+        order: 2;
+        display: initial;
+        padding: 30px 0px 20px 60px;
+    }
+
+    footer section.pie-2 div.contenido-footer ul li {
+        margin-right: 100px;
+        text-align: initial;
+    }
+
+    footer section.pie-2 div.order-3{
+        order: 3;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    footer section.pie-2 div.Reserved-texto {
+        display: initial;
+        order: 4;
+        color: #8C8C94;
+        padding-top: 30px;
+    }
+
+    footer section.pie-2 div div.icon-socialmedia {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    footer section.pie-2 div div.suscripcion input[type=mail]{
+        width: 220px;
+    }
+
+    footer section.pie-2 div div.suscripcion input[type=submit] {
+        width: 85px;
+    }
+
+}
